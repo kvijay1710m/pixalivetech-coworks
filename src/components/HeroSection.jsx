@@ -25,8 +25,14 @@ const HeroSection = () => {
                         <img src={logo} className="w-12 h-12 cursor-pointer" loading="lazy" alt="logo" />
                     </div>
 
-                    <div className="absolute top-6 left-1/2 transform -translate-x-1/2">
-                        <span className="text-[18px] text-white font-light">
+                    {/* Adjusted Pixalive text for mobile and desktop */}
+                    <div
+                        className="absolute left-1/2 transform -translate-x-1/2 text-white font-light text-[18px]"
+                        style={{
+                            top: '6rem', // Push down from top for mobile
+                        }}
+                    >
+                        <span className="block md:absolute md:top-6 md:left-1/2 md:transform md:-translate-x-1/2">
                             Pixalive tech co-works
                         </span>
                     </div>
