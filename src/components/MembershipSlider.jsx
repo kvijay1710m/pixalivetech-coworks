@@ -76,7 +76,7 @@ const MembershipSlider = () => {
   }, []);
 
   return (
-    <div className="w-full px-4 sm:px-6 md:px-10 py-12 bg-white">
+    <div className="max-w-[1260px] mx-auto px-4 sm:px-6 md:px-10 py-12 bg-white">
       <h2 className="text-[18px] sm:text-2xl font-medium mb-6">
         Discover Our Membership <br className="hidden sm:block" /> Plans
       </h2>

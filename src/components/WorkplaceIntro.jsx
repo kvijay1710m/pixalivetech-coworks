@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorkplaceIntro = () => {
     return (
-        <section className="flex max-w-[1250px] mb-[100px] mx-auto flex-col mt-[80px] md:mt-[140px] md:flex-row items-center md:items-start justify-between gap-6 px-4 sm:px-6 md:px-8 h-auto bg-white">
+        <section className="flex max-w-[1260px] mb-[100px] mx-auto flex-col mt-[80px] md:mt-[140px] md:flex-row items-center md:items-start justify-between gap-6 px-4 sm:px-6 md:px-8 h-auto bg-white">
 
             {/* Left small heading */}
             <div className="w-full md:w-1/3 flex justify-center md:justify-start">

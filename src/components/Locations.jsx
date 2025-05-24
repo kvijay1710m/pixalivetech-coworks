@@ -20,8 +20,8 @@ const Locations = () => {
 Bengaluru, Karnataka 560100`;
 
   return (
-    <section className="bg-white py-10 md:py-16 mb-20 mt-10">
-      <div className="max-w-[1258px] mx-auto px-4 md:px-0">
+    <section className=" max-w-[1260px] mx-auto px-5 bg-white py-10 md:py-16 mb-20 mt-10">
+      <div className="max-w-[1250px] mx-auto px-4 md:px-0">
         {/* Top Text Row */}
         <div className="flex flex-col md:flex-row justify-between text-[16px] md:text-base text-black mb-6 md:mb-8">
           <div className="leading-tight">

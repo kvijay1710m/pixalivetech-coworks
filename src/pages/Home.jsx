@@ -10,7 +10,7 @@ import WorkplaceIntro from "../components/WorkplaceIntro"
 
 export const Home = () => {
   return (
-    <div>
+    <div >
         <HeroSection />
         <WorkplaceIntro />
         <MembershipSlider />

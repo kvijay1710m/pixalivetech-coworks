@@ -65,23 +65,26 @@ const pricingOptions = [
 
 const PricingCards = () => {
   return (
-    <div className="px-4 py-10 max-w-7xl mx-auto">
+    <div className="px-4 py-10 max-w-[1260px] mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {pricingOptions.map((option, idx) => (
           <div
             key={idx}
-            className="border rounded-sm shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition-shadow bg-white"
+            className="border border-gray-300 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition-shadow bg-white  w-full h-full min-h-[370px]"
           >
             <div>
-              <h3 className="text-xl font-semibold mb-2">{option.title}</h3>
-              <p className="text-2xl font-bold mb-1">{option.price}<span className="text-base font-medium">{option.unit}</span></p>
-              <ul className="text-sm text-gray-600 mt-4 space-y-2.5">
+              <h3 className="text-[22px] md:text-[26px] font-semibold mb-2">{option.title}</h3>
+              <p className="text-[40px] md:text-[50px] font-bold mb-1">
+                {option.price}
+                <span className="text-gray-600 text-[18px] md:text-[20px] font-medium">{option.unit}</span>
+              </p>
+              <ul className="text-[15px] md:text-[16px] text-gray-600 mt-4 space-y-3.5">
                 {option.features.map((feature, i) => (
                   <li key={i}>• {feature}</li>
                 ))}
               </ul>
             </div>
-            <button className="mt-6 bg-black cursor-pointer text-white w-full py-2 rounded hover:bg-gray-800">
+            <button className="mt-6 bg-black cursor-pointer text-white w-full py-2 rounded hover:bg-white hover:text-black hover:border">
               Book a Space
             </button>
           </div>
